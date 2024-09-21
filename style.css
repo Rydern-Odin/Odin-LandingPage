@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    overflow:scroll;
+    font-family: pacifico;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(#f9e7d9,#ac53df);
+
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #ac53df;
+    border-style: inset;
+    border-radius: 50px;
+}
+
+.header{
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 24px 48px;
+    flex: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.logo-group{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.header-left{
+    font-size: 24px;
+    color:#f9e7d9;
+    font-weight: bold;
+    gap:30px;
+    flex-flow: row wrap;
+    justify-items: center;
+    align-items: center;
+   
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 100px;
+    background-color: 	#ac53df;
+    flex-shrink: 0;
+    flex-grow: 1;
+    border-style: groove;
+    border-radius: 40px;
+
+}
+
+
+
+.hero-box{
+    display: flex;
+    flex-direction: wrap;
+    color: #f9e7d9;
+    flex-direction: column;
+}
+
+.hero-head{
+    font-size: 48px;
+    width: 500px;
+    font-weight: 900;
+}
+
+.hero-body{
+    display: flex;
+    width: 450px;
+    font-size: 38px;
+}
+
+
+.hero-button{
+    display: flex;
+    width: 120px;
+    height:40px;
+    font-family: pacifico;
+    font-size: 16px;
+    color: #f9e7d9;
+    background-color: #e567d3;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-style: groove;
+    flex-grow: 1;
+
+}
+
+
+.twitch-video{
+    height: 500px;
+    width: 800px;
+    padding: 100px;
+}
+
+.info{
+    padding-bottom: 112px;
+    text-align: center;
+    flex: 1;
+    flex-shrink:1;
+    justify-self: center;
+    justify-content: space-around;
+    align-self: center;
+    width: 2200px;
+    padding-left: 200px;
+}
+
+.info-title{
+    font-size: 36px;
+    color: #ac53df;
+    font-weight: 900;
+    margin: 48px;
+}
+
+.info-box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    flex:1;
+    flex-shrink: 0;
+    gap: 15px;
+}
+
+.info-content{
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: #49003e;
+    flex-shrink: 0;
+    flex:1;
+}
+
+.info-card{
+    width: 250px;
+}
+
+.info-image{
+    width:250px;
+    border-style: groove;
+    border-radius: 32px;
+    background-color: #e567d3;
+}
+
+
+.quote{
+    padding: 128px 360px;
+    background-color: #f098b7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: 	#f9e7d9;
+}
+
+.quote-content{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    flex-wrap: wrap;
+}
+
+.author{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.sign-up{
+     margin: 80px 224px;
+     padding: 48px 128px;
+     display: flex;
+     background-color: #e567d3;
+     border-radius: 15px;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.up-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #f9e7d9;
+    font-size: 24px;
+}
+
+.odin{
+    font-size: 32px;
+    color: #63009d;
+    font-weight: 900;
+}
+
+.up-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:240px;
+    height: 80px;
+    font-size: 20px;
+    background-color: #ac53df;
+    color: #f9e7d9;
+    border-style: inset;
+    border-radius: 40px;
+
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(53, 53, 53);
+    padding: 18px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    padding: 0;
+    gap: 16px;
+}
+
+a{
+    color: #f9e7d9;
+    font-size: 18px;
+    text-decoration: none;
+}
